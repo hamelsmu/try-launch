@@ -89,3 +89,309 @@
 2023-05-25 09:19:17 INFO agent 0jwcyzci running 1 out of a maximum of 1 jobs: 12928331776
 2023-05-25 09:19:29 INFO Skipping check for completed run status because run was successful
 2023-05-25 09:19:29 INFO agent 0jwcyzci polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:25:34 INFO === Launch-agent called with kwargs {'ctx': <click.core.Context object at 0x129ebca30>, 'project': None, 'entity': 'hamelsmu', 'queues': ('Starter queue',), 'max_jobs': None, 'config': None, 'url': None}  CLI Version: 0.15.3 ===
+2023-05-25 09:25:34 INFO agent polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:25:35 INFO [35mlaunch:[0m Launch agent received job:
+{'runQueueItemId': 'UnVuUXVldWVJdGVtOjM0ODAwMDc4Mg==',
+ 'runSpec': {'_wandb_job_collection_id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjcyMDEzNTg2',
+             'author': 'hamelsmu',
+             'entity': 'hamelsmu',
+             'job': 'hamelsmu/try-launch/job-https___github.com_hamelsmu_try-launch.git_train4.py:latest',
+             'overrides': {'args': [],
+                           'entry_point': [],
+                           'run_config': {'epochs': 4, 'foo': 'bar'}},
+             'project': 'try-launch',
+             'resource': 'local-container',
+             'resource_args': {'local-container': {}}}}
+
+2023-05-25 09:25:35 INFO Parsing launch spec
+2023-05-25 09:25:35 INFO Fetching and validating project...
+2023-05-25 09:25:35 INFO Fetching git repo
+2023-05-25 09:25:36 INFO Applying diff.patch
+2023-05-25 09:25:36 INFO Skipping check for completed run status because run was successful
+2023-05-25 09:25:45 INFO agent r6piujly polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:26:06 INFO agent r6piujly polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:26:26 INFO agent r6piujly polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:26:36 INFO [35mlaunch:[0m Launch agent received job:
+{'runQueueItemId': 'UnVuUXVldWVJdGVtOjM0ODAwMDc4Mg==',
+ 'runSpec': {'_wandb_job_collection_id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjcyMDEzNTg2',
+             'author': 'hamelsmu',
+             'entity': 'hamelsmu',
+             'job': 'hamelsmu/try-launch/job-https___github.com_hamelsmu_try-launch.git_train4.py:latest',
+             'overrides': {'args': [],
+                           'entry_point': [],
+                           'run_config': {'epochs': 4, 'foo': 'bar'}},
+             'project': 'try-launch',
+             'resource': 'local-container',
+             'resource_args': {'local-container': {}}}}
+
+2023-05-25 09:26:37 INFO Parsing launch spec
+2023-05-25 09:26:37 INFO Fetching and validating project...
+2023-05-25 09:26:37 INFO Fetching git repo
+2023-05-25 09:26:38 INFO Applying diff.patch
+2023-05-25 09:26:38 INFO Skipping check for completed run status because run was successful
+2023-05-25 09:26:47 INFO agent r6piujly polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:27:07 INFO agent r6piujly polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:27:28 INFO agent r6piujly polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:27:38 INFO [35mlaunch:[0m Launch agent received job:
+{'runQueueItemId': 'UnVuUXVldWVJdGVtOjM0ODAwMDc4Mg==',
+ 'runSpec': {'_wandb_job_collection_id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjcyMDEzNTg2',
+             'author': 'hamelsmu',
+             'entity': 'hamelsmu',
+             'job': 'hamelsmu/try-launch/job-https___github.com_hamelsmu_try-launch.git_train4.py:latest',
+             'overrides': {'args': [],
+                           'entry_point': [],
+                           'run_config': {'epochs': 4, 'foo': 'bar'}},
+             'project': 'try-launch',
+             'resource': 'local-container',
+             'resource_args': {'local-container': {}}}}
+
+2023-05-25 09:27:38 INFO Parsing launch spec
+2023-05-25 09:27:38 INFO Fetching and validating project...
+2023-05-25 09:27:39 INFO Fetching git repo
+2023-05-25 09:27:40 INFO Applying diff.patch
+2023-05-25 09:27:40 INFO Skipping check for completed run status because run was successful
+2023-05-25 09:27:49 INFO agent r6piujly polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:28:00 INFO === Launch-agent called with kwargs {'ctx': <click.core.Context object at 0x1282ba9d0>, 'project': None, 'entity': 'hamelsmu', 'queues': ('Starter queue',), 'max_jobs': None, 'config': None, 'url': None}  CLI Version: 0.15.3 ===
+2023-05-25 09:28:01 INFO agent polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:28:09 INFO agent r6piujly polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:28:11 INFO agent rrg603j0 polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:28:30 INFO agent r6piujly polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:28:31 INFO agent rrg603j0 polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:28:40 INFO [35mlaunch:[0m Launch agent received job:
+{'runQueueItemId': 'UnVuUXVldWVJdGVtOjM0ODAwMDc4Mg==',
+ 'runSpec': {'_wandb_job_collection_id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjcyMDEzNTg2',
+             'author': 'hamelsmu',
+             'entity': 'hamelsmu',
+             'job': 'hamelsmu/try-launch/job-https___github.com_hamelsmu_try-launch.git_train4.py:latest',
+             'overrides': {'args': [],
+                           'entry_point': [],
+                           'run_config': {'epochs': 4, 'foo': 'bar'}},
+             'project': 'try-launch',
+             'resource': 'local-container',
+             'resource_args': {'local-container': {}}}}
+
+2023-05-25 09:28:40 INFO Parsing launch spec
+2023-05-25 09:28:40 INFO Fetching and validating project...
+2023-05-25 09:28:41 INFO Fetching git repo
+2023-05-25 09:28:41 INFO Applying diff.patch
+2023-05-25 09:28:41 INFO Skipping check for completed run status because run was successful
+2023-05-25 09:28:50 INFO agent r6piujly polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:28:52 INFO agent rrg603j0 polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:29:11 INFO agent r6piujly polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:29:12 INFO agent rrg603j0 polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:29:31 INFO agent r6piujly polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:29:33 INFO agent rrg603j0 polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:29:42 INFO [35mlaunch:[0m Launch agent received job:
+{'runQueueItemId': 'UnVuUXVldWVJdGVtOjM0ODAwMDc4Mg==',
+ 'runSpec': {'_wandb_job_collection_id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjcyMDEzNTg2',
+             'author': 'hamelsmu',
+             'entity': 'hamelsmu',
+             'job': 'hamelsmu/try-launch/job-https___github.com_hamelsmu_try-launch.git_train4.py:latest',
+             'overrides': {'args': [],
+                           'entry_point': [],
+                           'run_config': {'epochs': 4, 'foo': 'bar'}},
+             'project': 'try-launch',
+             'resource': 'local-container',
+             'resource_args': {'local-container': {}}}}
+
+2023-05-25 09:29:42 INFO Parsing launch spec
+2023-05-25 09:29:42 INFO Fetching and validating project...
+2023-05-25 09:29:42 INFO Fetching git repo
+2023-05-25 09:29:43 INFO Applying diff.patch
+2023-05-25 09:29:43 INFO Skipping check for completed run status because run was successful
+2023-05-25 09:29:52 INFO agent r6piujly polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:29:53 INFO agent rrg603j0 polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:30:13 INFO agent r6piujly polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:30:22 INFO agent rrg603j0 polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:30:33 INFO agent r6piujly polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:30:43 INFO [35mlaunch:[0m Launch agent received job:
+{'runQueueItemId': 'UnVuUXVldWVJdGVtOjM0ODAwMDc4Mg==',
+ 'runSpec': {'_wandb_job_collection_id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjcyMDEzNTg2',
+             'author': 'hamelsmu',
+             'entity': 'hamelsmu',
+             'job': 'hamelsmu/try-launch/job-https___github.com_hamelsmu_try-launch.git_train4.py:latest',
+             'overrides': {'args': [],
+                           'entry_point': [],
+                           'run_config': {'epochs': 4, 'foo': 'bar'}},
+             'project': 'try-launch',
+             'resource': 'local-container',
+             'resource_args': {'local-container': {}}}}
+
+2023-05-25 09:30:43 INFO Parsing launch spec
+2023-05-25 09:30:43 INFO Fetching and validating project...
+2023-05-25 09:30:43 INFO agent rrg603j0 running 1 out of a maximum of 1 jobs: 13015560192
+2023-05-25 09:30:44 INFO Fetching git repo
+2023-05-25 09:30:44 INFO Applying diff.patch
+2023-05-25 09:30:44 INFO Skipping check for completed run status because run was successful
+2023-05-25 09:30:54 INFO agent r6piujly polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:31:04 INFO agent rrg603j0 polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:31:14 INFO agent r6piujly polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:31:24 INFO agent rrg603j0 polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:31:35 INFO agent r6piujly polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:31:45 INFO [35mlaunch:[0m Launch agent received job:
+{'runQueueItemId': 'UnVuUXVldWVJdGVtOjM0ODAwMDc4Mg==',
+ 'runSpec': {'_wandb_job_collection_id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjcyMDEzNTg2',
+             'author': 'hamelsmu',
+             'entity': 'hamelsmu',
+             'job': 'hamelsmu/try-launch/job-https___github.com_hamelsmu_try-launch.git_train4.py:latest',
+             'overrides': {'args': [],
+                           'entry_point': [],
+                           'run_config': {'epochs': 4, 'foo': 'bar'}},
+             'project': 'try-launch',
+             'resource': 'local-container',
+             'resource_args': {'local-container': {}}}}
+
+2023-05-25 09:31:45 INFO Parsing launch spec
+2023-05-25 09:31:45 INFO Fetching and validating project...
+2023-05-25 09:31:45 INFO agent rrg603j0 running 1 out of a maximum of 1 jobs: 13032349696
+2023-05-25 09:31:45 INFO Fetching git repo
+2023-05-25 09:31:46 INFO Applying diff.patch
+2023-05-25 09:31:46 INFO Skipping check for completed run status because run was successful
+2023-05-25 09:31:55 INFO agent r6piujly polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:32:05 INFO agent rrg603j0 polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:32:16 INFO agent r6piujly polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:32:26 INFO agent rrg603j0 polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:32:36 INFO agent r6piujly polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:32:46 INFO [35mlaunch:[0m Launch agent received job:
+{'runQueueItemId': 'UnVuUXVldWVJdGVtOjM0ODAwMDc4Mg==',
+ 'runSpec': {'_wandb_job_collection_id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjcyMDEzNTg2',
+             'author': 'hamelsmu',
+             'entity': 'hamelsmu',
+             'job': 'hamelsmu/try-launch/job-https___github.com_hamelsmu_try-launch.git_train4.py:latest',
+             'overrides': {'args': [],
+                           'entry_point': [],
+                           'run_config': {'epochs': 4, 'foo': 'bar'}},
+             'project': 'try-launch',
+             'resource': 'local-container',
+             'resource_args': {'local-container': {}}}}
+
+2023-05-25 09:32:46 INFO Parsing launch spec
+2023-05-25 09:32:46 INFO Fetching and validating project...
+2023-05-25 09:32:47 INFO agent rrg603j0 running 1 out of a maximum of 1 jobs: 13015560192
+2023-05-25 09:32:47 INFO Fetching git repo
+2023-05-25 09:32:48 INFO Applying diff.patch
+2023-05-25 09:32:48 INFO Skipping check for completed run status because run was successful
+2023-05-25 09:32:57 INFO agent r6piujly polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:33:07 INFO agent rrg603j0 polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:33:18 INFO agent r6piujly polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:33:28 INFO agent rrg603j0 polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:33:38 INFO agent r6piujly polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:33:48 INFO [35mlaunch:[0m Launch agent received job:
+{'runQueueItemId': 'UnVuUXVldWVJdGVtOjM0ODAwMDc4Mg==',
+ 'runSpec': {'_wandb_job_collection_id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjcyMDEzNTg2',
+             'author': 'hamelsmu',
+             'entity': 'hamelsmu',
+             'job': 'hamelsmu/try-launch/job-https___github.com_hamelsmu_try-launch.git_train4.py:latest',
+             'overrides': {'args': [],
+                           'entry_point': [],
+                           'run_config': {'epochs': 4, 'foo': 'bar'}},
+             'project': 'try-launch',
+             'resource': 'local-container',
+             'resource_args': {'local-container': {}}}}
+
+2023-05-25 09:33:48 INFO Parsing launch spec
+2023-05-25 09:33:48 INFO Fetching and validating project...
+2023-05-25 09:33:48 INFO agent rrg603j0 running 1 out of a maximum of 1 jobs: 13032349696
+2023-05-25 09:33:49 INFO Fetching git repo
+2023-05-25 09:33:50 INFO Applying diff.patch
+2023-05-25 09:33:50 INFO Skipping check for completed run status because run was successful
+2023-05-25 09:33:59 INFO agent r6piujly polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:34:09 INFO agent rrg603j0 polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:34:19 INFO agent r6piujly polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:34:29 INFO agent rrg603j0 polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:34:40 INFO agent r6piujly polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:34:50 INFO [35mlaunch:[0m Launch agent received job:
+{'runQueueItemId': 'UnVuUXVldWVJdGVtOjM0ODAwMDc4Mg==',
+ 'runSpec': {'_wandb_job_collection_id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjcyMDEzNTg2',
+             'author': 'hamelsmu',
+             'entity': 'hamelsmu',
+             'job': 'hamelsmu/try-launch/job-https___github.com_hamelsmu_try-launch.git_train4.py:latest',
+             'overrides': {'args': [],
+                           'entry_point': [],
+                           'run_config': {'epochs': 4, 'foo': 'bar'}},
+             'project': 'try-launch',
+             'resource': 'local-container',
+             'resource_args': {'local-container': {}}}}
+
+2023-05-25 09:34:50 INFO Parsing launch spec
+2023-05-25 09:34:50 INFO Fetching and validating project...
+2023-05-25 09:34:50 INFO agent rrg603j0 running 1 out of a maximum of 1 jobs: 13015560192
+2023-05-25 09:34:51 INFO Fetching git repo
+2023-05-25 09:34:51 INFO Applying diff.patch
+2023-05-25 09:34:51 INFO Skipping check for completed run status because run was successful
+2023-05-25 09:35:00 INFO agent r6piujly polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:35:10 INFO agent rrg603j0 polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:35:21 INFO agent r6piujly polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:35:31 INFO agent rrg603j0 polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:35:41 INFO agent r6piujly polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:35:51 INFO [35mlaunch:[0m Launch agent received job:
+{'runQueueItemId': 'UnVuUXVldWVJdGVtOjM0ODAwMDc4Mg==',
+ 'runSpec': {'_wandb_job_collection_id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjcyMDEzNTg2',
+             'author': 'hamelsmu',
+             'entity': 'hamelsmu',
+             'job': 'hamelsmu/try-launch/job-https___github.com_hamelsmu_try-launch.git_train4.py:latest',
+             'overrides': {'args': [],
+                           'entry_point': [],
+                           'run_config': {'epochs': 4, 'foo': 'bar'}},
+             'project': 'try-launch',
+             'resource': 'local-container',
+             'resource_args': {'local-container': {}}}}
+
+2023-05-25 09:35:52 INFO Parsing launch spec
+2023-05-25 09:35:52 INFO Fetching and validating project...
+2023-05-25 09:35:52 INFO agent rrg603j0 running 1 out of a maximum of 1 jobs: 13032349696
+2023-05-25 09:35:52 INFO Fetching git repo
+2023-05-25 09:35:53 INFO Applying diff.patch
+2023-05-25 09:35:53 INFO Skipping check for completed run status because run was successful
+2023-05-25 09:36:02 INFO agent r6piujly polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:36:12 INFO agent rrg603j0 polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:36:22 INFO agent r6piujly polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:36:33 INFO agent rrg603j0 polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:36:43 INFO agent r6piujly polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:36:53 INFO [35mlaunch:[0m Launch agent received job:
+{'runQueueItemId': 'UnVuUXVldWVJdGVtOjM0ODAwMDc4Mg==',
+ 'runSpec': {'_wandb_job_collection_id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjcyMDEzNTg2',
+             'author': 'hamelsmu',
+             'entity': 'hamelsmu',
+             'job': 'hamelsmu/try-launch/job-https___github.com_hamelsmu_try-launch.git_train4.py:latest',
+             'overrides': {'args': [],
+                           'entry_point': [],
+                           'run_config': {'epochs': 4, 'foo': 'bar'}},
+             'project': 'try-launch',
+             'resource': 'local-container',
+             'resource_args': {'local-container': {}}}}
+
+2023-05-25 09:36:53 INFO Parsing launch spec
+2023-05-25 09:36:53 INFO Fetching and validating project...
+2023-05-25 09:36:53 INFO agent rrg603j0 polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:36:54 INFO Fetching git repo
+2023-05-25 09:36:55 INFO Applying diff.patch
+2023-05-25 09:36:55 INFO Skipping check for completed run status because run was successful
+2023-05-25 09:37:03 INFO agent r6piujly polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:37:14 INFO agent rrg603j0 polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:37:24 INFO agent r6piujly polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:37:34 INFO agent rrg603j0 polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:37:45 INFO agent r6piujly polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:37:55 INFO [35mlaunch:[0m Launch agent received job:
+{'runQueueItemId': 'UnVuUXVldWVJdGVtOjM0ODAwMDc4Mg==',
+ 'runSpec': {'_wandb_job_collection_id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjcyMDEzNTg2',
+             'author': 'hamelsmu',
+             'entity': 'hamelsmu',
+             'job': 'hamelsmu/try-launch/job-https___github.com_hamelsmu_try-launch.git_train4.py:latest',
+             'overrides': {'args': [],
+                           'entry_point': [],
+                           'run_config': {'epochs': 4, 'foo': 'bar'}},
+             'project': 'try-launch',
+             'resource': 'local-container',
+             'resource_args': {'local-container': {}}}}
+
+2023-05-25 09:37:55 INFO Parsing launch spec
+2023-05-25 09:37:55 INFO Fetching and validating project...
+2023-05-25 09:37:55 INFO agent rrg603j0 running 1 out of a maximum of 1 jobs: 13015560192
+2023-05-25 09:37:55 INFO Fetching git repo
+2023-05-25 09:37:56 INFO Applying diff.patch
+2023-05-25 09:37:56 INFO Skipping check for completed run status because run was successful
+2023-05-25 09:38:05 INFO agent r6piujly polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:38:15 INFO agent rrg603j0 polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:38:26 INFO agent r6piujly polling on queues Starter queue, running 0 out of a maximum of 1 jobs
