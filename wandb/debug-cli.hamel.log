@@ -35,3 +35,57 @@
 2023-05-25 09:08:48 INFO agent sbzy8t3x polling on queues Starter queue, running 0 out of a maximum of 1 jobs
 2023-05-25 09:09:08 INFO agent sbzy8t3x polling on queues Starter queue, running 0 out of a maximum of 1 jobs
 2023-05-25 09:09:29 INFO agent sbzy8t3x polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:09:49 INFO agent sbzy8t3x polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:10:10 INFO agent sbzy8t3x polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:10:32 INFO agent sbzy8t3x polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:10:52 INFO agent sbzy8t3x polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:11:20 INFO agent sbzy8t3x polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:11:29 INFO agent sbzy8t3x polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:11:33 INFO === Launch-agent called with kwargs {'ctx': <click.core.Context object at 0x128895a30>, 'project': None, 'entity': 'hamelsmu', 'queues': ('Starter queue',), 'max_jobs': None, 'config': None, 'url': None}  CLI Version: 0.15.3 ===
+2023-05-25 09:11:41 INFO agent polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:11:52 INFO agent hsg5r5lc polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:12:13 INFO agent hsg5r5lc polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:12:33 INFO agent hsg5r5lc polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:12:54 INFO agent hsg5r5lc polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:13:14 INFO agent hsg5r5lc polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:13:29 INFO agent hsg5r5lc polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:15:01 INFO === Launch-agent called with kwargs {'ctx': <click.core.Context object at 0x1259fb9d0>, 'project': None, 'entity': 'hamelsmu', 'queues': ('Starter queue',), 'max_jobs': None, 'config': None, 'url': None}  CLI Version: 0.15.3 ===
+2023-05-25 09:15:01 INFO agent polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:15:12 INFO agent 0jwcyzci polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:15:32 INFO agent 0jwcyzci polling on queues Starter queue, running 0 out of a maximum of 1 jobs
+2023-05-25 09:15:53 INFO [35mlaunch:[0m Launch agent received job:
+{'runQueueItemId': 'UnVuUXVldWVJdGVtOjM0Nzk5MzkzNQ==',
+ 'runSpec': {'_wandb_job_collection_id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjcyMDEwNzU3',
+             'author': 'hamelsmu',
+             'entity': 'hamelsmu',
+             'job': 'hamelsmu/try-launch/job-source-try-launch-train3.py:latest',
+             'overrides': {'args': [],
+                           'entry_point': [],
+                           'run_config': {'epochs': 0, 'foo': ''}},
+             'project': 'try-launch',
+             'resource': 'local-container',
+             'resource_args': {'local-container': {}}}}
+
+2023-05-25 09:15:53 INFO Parsing launch spec
+2023-05-25 09:15:53 INFO Fetching and validating project...
+2023-05-25 09:15:53 INFO agent 0jwcyzci running 1 out of a maximum of 1 jobs: 12928331776
+2023-05-25 09:15:54 INFO Fetching resource...
+2023-05-25 09:15:54 INFO Loading backend
+2023-05-25 09:15:54 INFO [35mlaunch:[0m No registry configured, skipping login.
+2023-05-25 09:15:54 INFO Backend loaded...
+2023-05-25 09:15:54 INFO Building docker image...
+2023-05-25 09:15:55 INFO Checking if base image exists...
+2023-05-25 09:15:55 INFO Base image not found. Generating new base image
+2023-05-25 09:15:55 INFO image hamelsmu__try-launch__job-source-try-launch-train3.py:a730bbbb does not already exist in repository, building.
+2023-05-25 09:16:13 INFO agent 0jwcyzci running 1 out of a maximum of 1 jobs: 12928331776
+2023-05-25 09:16:34 INFO agent 0jwcyzci running 1 out of a maximum of 1 jobs: 12928331776
+2023-05-25 09:16:54 INFO agent 0jwcyzci running 1 out of a maximum of 1 jobs: 12928331776
+2023-05-25 09:17:14 INFO agent 0jwcyzci running 1 out of a maximum of 1 jobs: 12928331776
+2023-05-25 09:17:35 INFO agent 0jwcyzci running 1 out of a maximum of 1 jobs: 12928331776
+2023-05-25 09:17:55 INFO agent 0jwcyzci running 1 out of a maximum of 1 jobs: 12928331776
+2023-05-25 09:18:16 INFO agent 0jwcyzci running 1 out of a maximum of 1 jobs: 12928331776
+2023-05-25 09:18:36 INFO agent 0jwcyzci running 1 out of a maximum of 1 jobs: 12928331776
+2023-05-25 09:18:56 INFO agent 0jwcyzci running 1 out of a maximum of 1 jobs: 12928331776
+2023-05-25 09:19:17 INFO agent 0jwcyzci running 1 out of a maximum of 1 jobs: 12928331776
+2023-05-25 09:19:29 INFO Skipping check for completed run status because run was successful
+2023-05-25 09:19:29 INFO agent 0jwcyzci polling on queues Starter queue, running 0 out of a maximum of 1 jobs
