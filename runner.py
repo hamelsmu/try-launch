@@ -1,7 +1,7 @@
 import wandb
 
 def run(config):
-    with wandb.init(config=config):
+    with wandb.init(config=config, settings={"disable_git": True}):
         config = wandb.config
         for epoch in range(1, config.epochs):
             loss = config.epochs / epoch
