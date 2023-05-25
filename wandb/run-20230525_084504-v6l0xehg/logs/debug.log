@@ -1,0 +1,29 @@
+2023-05-25 08:45:04,196 INFO    MainThread:67137 [wandb_setup.py:_flush():68] Configure stats pid to 67137
+2023-05-25 08:45:04,196 INFO    MainThread:67137 [wandb_setup.py:_flush():68] Loading settings from /Users/hamel/.config/wandb/settings
+2023-05-25 08:45:04,196 INFO    MainThread:67137 [wandb_setup.py:_flush():68] Loading settings from /Users/hamel/github/try-launch/wandb/settings
+2023-05-25 08:45:04,196 INFO    MainThread:67137 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'api_key': '***REDACTED***', '_require_service': 'True'}
+2023-05-25 08:45:04,196 INFO    MainThread:67137 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program': '/Users/hamel/github/try-launch/train.py'}
+2023-05-25 08:45:04,196 INFO    MainThread:67137 [wandb_init.py:_log_setup():478] Logging user logs to /Users/hamel/github/try-launch/wandb/run-20230525_084504-v6l0xehg/logs/debug.log
+2023-05-25 08:45:04,196 INFO    MainThread:67137 [wandb_init.py:_log_setup():479] Logging internal logs to /Users/hamel/github/try-launch/wandb/run-20230525_084504-v6l0xehg/logs/debug-internal.log
+2023-05-25 08:45:04,196 INFO    MainThread:67137 [wandb_init.py:init():518] calling init triggers
+2023-05-25 08:45:04,196 INFO    MainThread:67137 [wandb_init.py:init():521] wandb.init called with sweep_config: {}
+config: {'epochs': 10}
+2023-05-25 08:45:04,196 INFO    MainThread:67137 [wandb_init.py:init():571] starting backend
+2023-05-25 08:45:04,196 INFO    MainThread:67137 [wandb_init.py:init():575] setting up manager
+2023-05-25 08:45:04,201 INFO    MainThread:67137 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-05-25 08:45:04,203 INFO    MainThread:67137 [wandb_init.py:init():582] backend started and connected
+2023-05-25 08:45:04,205 INFO    MainThread:67137 [wandb_init.py:init():670] updated telemetry
+2023-05-25 08:45:04,207 INFO    MainThread:67137 [wandb_init.py:init():710] communicating run to backend with 60.0 second timeout
+2023-05-25 08:45:04,613 INFO    MainThread:67137 [wandb_run.py:_on_init():2121] communicating current version
+2023-05-25 08:45:04,734 INFO    MainThread:67137 [wandb_run.py:_on_init():2125] got version response upgrade_message: "wandb version 0.15.3 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-05-25 08:45:04,735 INFO    MainThread:67137 [wandb_init.py:init():758] starting run threads in backend
+2023-05-25 08:45:06,062 INFO    MainThread:67137 [wandb_run.py:_console_start():2101] atexit reg
+2023-05-25 08:45:06,062 INFO    MainThread:67137 [wandb_run.py:_redirect():1959] redirect: SettingsConsole.WRAP_RAW
+2023-05-25 08:45:06,062 INFO    MainThread:67137 [wandb_run.py:_redirect():2024] Wrapping output streams.
+2023-05-25 08:45:06,062 INFO    MainThread:67137 [wandb_run.py:_redirect():2046] Redirects installed.
+2023-05-25 08:45:06,063 INFO    MainThread:67137 [wandb_init.py:init():798] run started, returning control to user process
+2023-05-25 08:45:06,209 INFO    MainThread:67137 [wandb_run.py:_finish():1844] finishing run av-team/try-launch/v6l0xehg
+2023-05-25 08:45:06,209 INFO    MainThread:67137 [wandb_run.py:_atexit_cleanup():2070] got exitcode: 0
+2023-05-25 08:45:06,209 INFO    MainThread:67137 [wandb_run.py:_restore():2053] restore
+2023-05-25 08:45:06,210 INFO    MainThread:67137 [wandb_run.py:_restore():2059] restore done

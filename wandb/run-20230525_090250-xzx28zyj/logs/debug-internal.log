@@ -1,0 +1,223 @@
+2023-05-25 09:02:50,467 INFO    StreamThr :72969 [internal.py:wandb_internal():86] W&B internal server running at pid: 72969, started at: 2023-05-25 09:02:50.467009
+2023-05-25 09:02:50,468 DEBUG   HandlerThread:72969 [handler.py:handle_request():144] handle_request: status
+2023-05-25 09:02:50,469 INFO    WriterThread:72969 [datastore.py:open_for_write():85] open: /Users/hamel/github/try-launch/wandb/run-20230525_090250-xzx28zyj/run-xzx28zyj.wandb
+2023-05-25 09:02:50,471 DEBUG   SenderThread:72969 [sender.py:send():375] send: header
+2023-05-25 09:02:50,471 DEBUG   SenderThread:72969 [sender.py:send():375] send: run
+2023-05-25 09:02:50,837 INFO    SenderThread:72969 [dir_watcher.py:__init__():219] watching files in: /Users/hamel/github/try-launch/wandb/run-20230525_090250-xzx28zyj/files
+2023-05-25 09:02:50,837 INFO    SenderThread:72969 [sender.py:_start_run_threads():1124] run started: xzx28zyj with start time 1685030570.466076
+2023-05-25 09:02:50,837 DEBUG   SenderThread:72969 [sender.py:send_request():402] send_request: summary_record
+2023-05-25 09:02:50,837 INFO    SenderThread:72969 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-25 09:02:50,838 DEBUG   HandlerThread:72969 [handler.py:handle_request():144] handle_request: check_version
+2023-05-25 09:02:50,838 DEBUG   SenderThread:72969 [sender.py:send_request():402] send_request: check_version
+2023-05-25 09:02:50,965 DEBUG   HandlerThread:72969 [handler.py:handle_request():144] handle_request: run_start
+2023-05-25 09:02:50,977 DEBUG   HandlerThread:72969 [system_info.py:__init__():31] System info init
+2023-05-25 09:02:50,978 DEBUG   HandlerThread:72969 [system_info.py:__init__():46] System info init done
+2023-05-25 09:02:50,978 INFO    HandlerThread:72969 [system_monitor.py:start():181] Starting system monitor
+2023-05-25 09:02:50,978 INFO    SystemMonitor:72969 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-05-25 09:02:50,978 INFO    HandlerThread:72969 [system_monitor.py:probe():201] Collecting system info
+2023-05-25 09:02:50,979 DEBUG   HandlerThread:72969 [system_info.py:probe():195] Probing system
+2023-05-25 09:02:50,979 INFO    SystemMonitor:72969 [interfaces.py:start():190] Started cpu monitoring
+2023-05-25 09:02:50,979 INFO    SystemMonitor:72969 [interfaces.py:start():190] Started disk monitoring
+2023-05-25 09:02:50,980 INFO    SystemMonitor:72969 [interfaces.py:start():190] Started memory monitoring
+2023-05-25 09:02:50,980 INFO    SystemMonitor:72969 [interfaces.py:start():190] Started network monitoring
+2023-05-25 09:02:50,981 DEBUG   HandlerThread:72969 [system_info.py:_probe_git():180] Probing git
+2023-05-25 09:02:50,996 DEBUG   HandlerThread:72969 [system_info.py:_probe_git():188] Probing git done
+2023-05-25 09:02:50,996 DEBUG   HandlerThread:72969 [system_info.py:probe():240] Probing system done
+2023-05-25 09:02:50,996 DEBUG   HandlerThread:72969 [system_monitor.py:probe():210] {'os': 'macOS-13.3.1-x86_64-i386-64bit', 'python': '3.9.12', 'heartbeatAt': '2023-05-25T16:02:50.979437', 'startedAt': '2023-05-25T16:02:50.454454', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/hamel/github/try-launch/train3.py', 'codePath': 'train3.py', 'git': {'remote': 'https://github.com/hamelsmu/try-launch.git', 'commit': None}, 'email': 'hamel.husain@gmail.com', 'root': '/Users/hamel/github/try-launch', 'host': 'hamelm1.local', 'username': 'hamel', 'executable': '/opt/anaconda3/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2400, 'min': 2400, 'max': 2400}, 'cpu_freq_per_core': [{'current': 2400, 'min': 2400, 'max': 2400}], 'disk': {'total': 926.3517189025879, 'used': 8.451580047607422}, 'memory': {'total': 16.0}}
+2023-05-25 09:02:50,996 INFO    HandlerThread:72969 [system_monitor.py:probe():211] Finished collecting system info
+2023-05-25 09:02:50,996 INFO    HandlerThread:72969 [system_monitor.py:probe():214] Publishing system info
+2023-05-25 09:02:50,996 DEBUG   HandlerThread:72969 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-05-25 09:02:50,997 DEBUG   HandlerThread:72969 [system_info.py:_save_pip():67] Saving pip packages done
+2023-05-25 09:02:50,997 DEBUG   HandlerThread:72969 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-05-25 09:02:51,839 INFO    Thread-12 :72969 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/hamel/github/try-launch/wandb/run-20230525_090250-xzx28zyj/files/wandb-summary.json
+2023-05-25 09:02:51,839 INFO    Thread-12 :72969 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/hamel/github/try-launch/wandb/run-20230525_090250-xzx28zyj/files/requirements.txt
+2023-05-25 09:02:51,839 INFO    Thread-12 :72969 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/hamel/github/try-launch/wandb/run-20230525_090250-xzx28zyj/files/conda-environment.yaml
+2023-05-25 09:02:51,960 DEBUG   HandlerThread:72969 [system_info.py:_save_conda():86] Saving conda packages done
+2023-05-25 09:02:51,960 DEBUG   HandlerThread:72969 [system_info.py:_save_code():89] Saving code
+2023-05-25 09:02:51,977 DEBUG   HandlerThread:72969 [system_info.py:_save_code():110] Saving code done
+2023-05-25 09:02:51,977 DEBUG   HandlerThread:72969 [system_info.py:_save_patches():127] Saving git patches
+2023-05-25 09:02:52,019 DEBUG   HandlerThread:72969 [system_info.py:_save_patches():169] Saving git patches done
+2023-05-25 09:02:52,019 INFO    HandlerThread:72969 [system_monitor.py:probe():216] Finished publishing system info
+2023-05-25 09:02:52,028 DEBUG   SenderThread:72969 [sender.py:send():375] send: files
+2023-05-25 09:02:52,028 INFO    SenderThread:72969 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-05-25 09:02:52,028 INFO    SenderThread:72969 [sender.py:_save_file():1378] saving file code/train3.py with policy now
+2023-05-25 09:02:52,031 DEBUG   HandlerThread:72969 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-25 09:02:52,032 DEBUG   SenderThread:72969 [sender.py:send_request():402] send_request: stop_status
+2023-05-25 09:02:52,033 DEBUG   HandlerThread:72969 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-25 09:02:52,035 DEBUG   HandlerThread:72969 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-25 09:02:52,036 DEBUG   HandlerThread:72969 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-25 09:02:52,036 DEBUG   HandlerThread:72969 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-25 09:02:52,037 DEBUG   HandlerThread:72969 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-25 09:02:52,037 DEBUG   HandlerThread:72969 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-25 09:02:52,037 DEBUG   HandlerThread:72969 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-25 09:02:52,038 DEBUG   HandlerThread:72969 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-25 09:02:52,038 DEBUG   HandlerThread:72969 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-25 09:02:52,184 DEBUG   HandlerThread:72969 [handler.py:handle_request():144] handle_request: log_artifact
+2023-05-25 09:02:52,192 DEBUG   SenderThread:72969 [sender.py:send():375] send: telemetry
+2023-05-25 09:02:52,192 DEBUG   SenderThread:72969 [sender.py:send():375] send: history
+2023-05-25 09:02:52,192 DEBUG   SenderThread:72969 [sender.py:send_request():402] send_request: summary_record
+2023-05-25 09:02:52,193 INFO    SenderThread:72969 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-25 09:02:52,193 DEBUG   SenderThread:72969 [sender.py:send():375] send: history
+2023-05-25 09:02:52,193 DEBUG   SenderThread:72969 [sender.py:send_request():402] send_request: summary_record
+2023-05-25 09:02:52,193 INFO    SenderThread:72969 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-25 09:02:52,194 DEBUG   SenderThread:72969 [sender.py:send():375] send: history
+2023-05-25 09:02:52,194 DEBUG   SenderThread:72969 [sender.py:send_request():402] send_request: summary_record
+2023-05-25 09:02:52,194 INFO    SenderThread:72969 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-25 09:02:52,194 DEBUG   SenderThread:72969 [sender.py:send():375] send: history
+2023-05-25 09:02:52,194 DEBUG   SenderThread:72969 [sender.py:send_request():402] send_request: summary_record
+2023-05-25 09:02:52,194 INFO    SenderThread:72969 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-25 09:02:52,195 DEBUG   SenderThread:72969 [sender.py:send():375] send: history
+2023-05-25 09:02:52,195 DEBUG   SenderThread:72969 [sender.py:send_request():402] send_request: summary_record
+2023-05-25 09:02:52,195 INFO    SenderThread:72969 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-25 09:02:52,195 DEBUG   SenderThread:72969 [sender.py:send():375] send: history
+2023-05-25 09:02:52,195 DEBUG   SenderThread:72969 [sender.py:send_request():402] send_request: summary_record
+2023-05-25 09:02:52,195 INFO    SenderThread:72969 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-25 09:02:52,195 DEBUG   SenderThread:72969 [sender.py:send():375] send: history
+2023-05-25 09:02:52,195 DEBUG   SenderThread:72969 [sender.py:send_request():402] send_request: summary_record
+2023-05-25 09:02:52,195 INFO    SenderThread:72969 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-25 09:02:52,195 DEBUG   SenderThread:72969 [sender.py:send():375] send: history
+2023-05-25 09:02:52,195 DEBUG   SenderThread:72969 [sender.py:send_request():402] send_request: summary_record
+2023-05-25 09:02:52,196 INFO    SenderThread:72969 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-25 09:02:52,196 DEBUG   SenderThread:72969 [sender.py:send():375] send: history
+2023-05-25 09:02:52,196 DEBUG   SenderThread:72969 [sender.py:send_request():402] send_request: summary_record
+2023-05-25 09:02:52,196 INFO    SenderThread:72969 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-25 09:02:52,196 DEBUG   SenderThread:72969 [sender.py:send_request():402] send_request: log_artifact
+2023-05-25 09:02:52,515 INFO    wandb-upload_0:72969 [upload_job.py:push():137] Uploaded file /var/folders/hz/fg03h5c13x96l0g9420_qvlm0000gn/T/tmp80f4ps09wandb/qk7ygcmb-wandb-metadata.json
+2023-05-25 09:02:52,555 INFO    wandb-upload_1:72969 [upload_job.py:push():137] Uploaded file /var/folders/hz/fg03h5c13x96l0g9420_qvlm0000gn/T/tmp80f4ps09wandb/krkivskk-code/train3.py
+2023-05-25 09:02:52,843 INFO    Thread-12 :72969 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hamel/github/try-launch/wandb/run-20230525_090250-xzx28zyj/files/wandb-summary.json
+2023-05-25 09:02:52,843 INFO    Thread-12 :72969 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/hamel/github/try-launch/wandb/run-20230525_090250-xzx28zyj/files/code/train3.py
+2023-05-25 09:02:52,843 INFO    Thread-12 :72969 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/hamel/github/try-launch/wandb/run-20230525_090250-xzx28zyj/files/wandb-metadata.json
+2023-05-25 09:02:52,843 INFO    Thread-12 :72969 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/hamel/github/try-launch/wandb/run-20230525_090250-xzx28zyj/files/code
+2023-05-25 09:02:53,125 INFO    wandb-upload_0:72969 [upload_job.py:push():95] Uploaded file /Users/hamel/Library/Application Support/wandb/artifacts/staging/tmpugr5qjko
+2023-05-25 09:02:53,142 INFO    wandb-upload_2:72969 [upload_job.py:push():95] Uploaded file /Users/hamel/Library/Application Support/wandb/artifacts/staging/tmppv7tzm2v
+2023-05-25 09:02:53,142 INFO    wandb-upload_1:72969 [upload_job.py:push():95] Uploaded file /Users/hamel/Library/Application Support/wandb/artifacts/staging/tmpwpjwyvz4
+2023-05-25 09:02:53,189 DEBUG   HandlerThread:72969 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-25 09:02:53,892 INFO    SenderThread:72969 [sender.py:send_request_log_artifact():1438] logged artifact source-try-launch-train3.py - {'id': 'QXJ0aWZhY3Q6NDY2NDk3OTg4', 'digest': '1071c5dc99a0f9a1b53e02f5ae9bec06', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjcyMDEwNzUy', 'latestArtifact': None}, 'version': 'latest'}
+2023-05-25 09:02:53,892 DEBUG   SenderThread:72969 [sender.py:send():375] send: telemetry
+2023-05-25 09:02:53,892 DEBUG   SenderThread:72969 [sender.py:send():375] send: exit
+2023-05-25 09:02:53,893 INFO    SenderThread:72969 [sender.py:send_exit():598] handling exit code: 0
+2023-05-25 09:02:53,893 INFO    SenderThread:72969 [sender.py:send_exit():600] handling runtime: 1
+2023-05-25 09:02:53,893 INFO    SenderThread:72969 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-25 09:02:53,893 INFO    SenderThread:72969 [sender.py:send_exit():606] send defer
+2023-05-25 09:02:53,893 DEBUG   SenderThread:72969 [sender.py:send_request():402] send_request: poll_exit
+2023-05-25 09:02:53,893 DEBUG   HandlerThread:72969 [handler.py:handle_request():144] handle_request: defer
+2023-05-25 09:02:53,894 INFO    HandlerThread:72969 [handler.py:handle_request_defer():170] handle defer: 0
+2023-05-25 09:02:53,894 DEBUG   SenderThread:72969 [sender.py:send_request():402] send_request: defer
+2023-05-25 09:02:53,894 INFO    SenderThread:72969 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-05-25 09:02:53,894 INFO    SenderThread:72969 [sender.py:transition_state():626] send defer: 1
+2023-05-25 09:02:53,894 DEBUG   HandlerThread:72969 [handler.py:handle_request():144] handle_request: defer
+2023-05-25 09:02:53,894 INFO    HandlerThread:72969 [handler.py:handle_request_defer():170] handle defer: 1
+2023-05-25 09:02:53,894 DEBUG   SenderThread:72969 [sender.py:send_request():402] send_request: defer
+2023-05-25 09:02:53,894 INFO    SenderThread:72969 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-05-25 09:02:53,894 INFO    SenderThread:72969 [sender.py:transition_state():626] send defer: 2
+2023-05-25 09:02:53,894 DEBUG   HandlerThread:72969 [handler.py:handle_request():144] handle_request: defer
+2023-05-25 09:02:53,894 INFO    HandlerThread:72969 [handler.py:handle_request_defer():170] handle defer: 2
+2023-05-25 09:02:53,894 INFO    HandlerThread:72969 [system_monitor.py:finish():190] Stopping system monitor
+2023-05-25 09:02:53,894 DEBUG   SystemMonitor:72969 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-05-25 09:02:53,895 DEBUG   SystemMonitor:72969 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-05-25 09:02:53,895 DEBUG   SystemMonitor:72969 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-05-25 09:02:53,895 INFO    HandlerThread:72969 [interfaces.py:finish():202] Joined cpu monitor
+2023-05-25 09:02:53,895 INFO    HandlerThread:72969 [interfaces.py:finish():202] Joined disk monitor
+2023-05-25 09:02:53,895 INFO    HandlerThread:72969 [interfaces.py:finish():202] Joined memory monitor
+2023-05-25 09:02:53,895 INFO    HandlerThread:72969 [interfaces.py:finish():202] Joined network monitor
+2023-05-25 09:02:53,895 DEBUG   SenderThread:72969 [sender.py:send_request():402] send_request: defer
+2023-05-25 09:02:53,896 INFO    SenderThread:72969 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-05-25 09:02:53,896 INFO    SenderThread:72969 [sender.py:transition_state():626] send defer: 3
+2023-05-25 09:02:53,896 DEBUG   SenderThread:72969 [sender.py:send():375] send: stats
+2023-05-25 09:02:53,896 DEBUG   HandlerThread:72969 [handler.py:handle_request():144] handle_request: defer
+2023-05-25 09:02:53,896 INFO    HandlerThread:72969 [handler.py:handle_request_defer():170] handle defer: 3
+2023-05-25 09:02:53,896 DEBUG   SenderThread:72969 [sender.py:send_request():402] send_request: defer
+2023-05-25 09:02:53,896 INFO    SenderThread:72969 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-05-25 09:02:53,896 INFO    SenderThread:72969 [sender.py:transition_state():626] send defer: 4
+2023-05-25 09:02:53,896 DEBUG   HandlerThread:72969 [handler.py:handle_request():144] handle_request: defer
+2023-05-25 09:02:53,896 INFO    HandlerThread:72969 [handler.py:handle_request_defer():170] handle defer: 4
+2023-05-25 09:02:53,896 DEBUG   SenderThread:72969 [sender.py:send_request():402] send_request: defer
+2023-05-25 09:02:53,896 INFO    SenderThread:72969 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-05-25 09:02:53,896 INFO    SenderThread:72969 [sender.py:transition_state():626] send defer: 5
+2023-05-25 09:02:53,896 DEBUG   HandlerThread:72969 [handler.py:handle_request():144] handle_request: defer
+2023-05-25 09:02:53,897 INFO    HandlerThread:72969 [handler.py:handle_request_defer():170] handle defer: 5
+2023-05-25 09:02:53,897 DEBUG   SenderThread:72969 [sender.py:send():375] send: summary
+2023-05-25 09:02:53,897 INFO    SenderThread:72969 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-25 09:02:53,897 DEBUG   SenderThread:72969 [sender.py:send_request():402] send_request: defer
+2023-05-25 09:02:53,897 INFO    SenderThread:72969 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-05-25 09:02:53,897 INFO    SenderThread:72969 [sender.py:transition_state():626] send defer: 6
+2023-05-25 09:02:53,897 DEBUG   HandlerThread:72969 [handler.py:handle_request():144] handle_request: defer
+2023-05-25 09:02:53,897 INFO    HandlerThread:72969 [handler.py:handle_request_defer():170] handle defer: 6
+2023-05-25 09:02:53,898 DEBUG   SenderThread:72969 [sender.py:send_request():402] send_request: defer
+2023-05-25 09:02:53,898 INFO    SenderThread:72969 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-05-25 09:02:53,901 DEBUG   HandlerThread:72969 [handler.py:handle_request():144] handle_request: status_report
+2023-05-25 09:02:54,082 INFO    SenderThread:72969 [sender.py:transition_state():626] send defer: 7
+2023-05-25 09:02:54,082 DEBUG   HandlerThread:72969 [handler.py:handle_request():144] handle_request: defer
+2023-05-25 09:02:54,082 INFO    HandlerThread:72969 [handler.py:handle_request_defer():170] handle defer: 7
+2023-05-25 09:02:54,083 DEBUG   SenderThread:72969 [sender.py:send_request():402] send_request: defer
+2023-05-25 09:02:54,083 INFO    SenderThread:72969 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-05-25 09:02:54,083 INFO    SenderThread:72969 [sender.py:transition_state():626] send defer: 8
+2023-05-25 09:02:54,083 DEBUG   HandlerThread:72969 [handler.py:handle_request():144] handle_request: defer
+2023-05-25 09:02:54,083 INFO    HandlerThread:72969 [handler.py:handle_request_defer():170] handle defer: 8
+2023-05-25 09:02:54,083 DEBUG   SenderThread:72969 [sender.py:send_request():402] send_request: defer
+2023-05-25 09:02:54,083 INFO    SenderThread:72969 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-05-25 09:02:54,089 INFO    SenderThread:72969 [sender.py:transition_state():626] send defer: 9
+2023-05-25 09:02:54,090 DEBUG   HandlerThread:72969 [handler.py:handle_request():144] handle_request: defer
+2023-05-25 09:02:54,090 DEBUG   SenderThread:72969 [sender.py:send():375] send: artifact
+2023-05-25 09:02:54,090 INFO    HandlerThread:72969 [handler.py:handle_request_defer():170] handle defer: 9
+2023-05-25 09:02:54,195 DEBUG   HandlerThread:72969 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-25 09:02:54,850 INFO    Thread-12 :72969 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hamel/github/try-launch/wandb/run-20230525_090250-xzx28zyj/files/wandb-summary.json
+2023-05-25 09:02:54,851 INFO    Thread-12 :72969 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/hamel/github/try-launch/wandb/run-20230525_090250-xzx28zyj/files/config.yaml
+2023-05-25 09:02:54,964 INFO    wandb-upload_2:72969 [upload_job.py:push():95] Uploaded file /Users/hamel/Library/Application Support/wandb/artifacts/staging/tmpqzpd9hr9
+2023-05-25 09:02:55,044 INFO    wandb-upload_0:72969 [upload_job.py:push():95] Uploaded file /Users/hamel/Library/Application Support/wandb/artifacts/staging/tmpdw_nohyx
+2023-05-25 09:02:56,159 INFO    SenderThread:72969 [sender.py:send_artifact():1474] sent artifact job-source-try-launch-train3.py - {'id': 'QXJ0aWZhY3Q6NDY2NDk4MDA5', 'digest': '9c53a018965e67f65868941e5d339051', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjcyMDEwNzU3', 'latestArtifact': None}, 'version': 'latest'}
+2023-05-25 09:02:56,159 DEBUG   SenderThread:72969 [sender.py:send_request():402] send_request: defer
+2023-05-25 09:02:56,160 INFO    SenderThread:72969 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-05-25 09:02:56,160 INFO    SenderThread:72969 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-05-25 09:02:56,862 INFO    SenderThread:72969 [dir_watcher.py:finish():395] scan: /Users/hamel/github/try-launch/wandb/run-20230525_090250-xzx28zyj/files
+2023-05-25 09:02:56,862 INFO    SenderThread:72969 [dir_watcher.py:finish():409] scan save: /Users/hamel/github/try-launch/wandb/run-20230525_090250-xzx28zyj/files/requirements.txt requirements.txt
+2023-05-25 09:02:56,863 INFO    SenderThread:72969 [dir_watcher.py:finish():409] scan save: /Users/hamel/github/try-launch/wandb/run-20230525_090250-xzx28zyj/files/config.yaml config.yaml
+2023-05-25 09:02:56,867 INFO    SenderThread:72969 [dir_watcher.py:finish():409] scan save: /Users/hamel/github/try-launch/wandb/run-20230525_090250-xzx28zyj/files/wandb-summary.json wandb-summary.json
+2023-05-25 09:02:56,868 INFO    SenderThread:72969 [dir_watcher.py:finish():409] scan save: /Users/hamel/github/try-launch/wandb/run-20230525_090250-xzx28zyj/files/conda-environment.yaml conda-environment.yaml
+2023-05-25 09:02:56,875 INFO    SenderThread:72969 [dir_watcher.py:finish():409] scan save: /Users/hamel/github/try-launch/wandb/run-20230525_090250-xzx28zyj/files/wandb-metadata.json wandb-metadata.json
+2023-05-25 09:02:56,882 INFO    SenderThread:72969 [dir_watcher.py:finish():409] scan save: /Users/hamel/github/try-launch/wandb/run-20230525_090250-xzx28zyj/files/code/train3.py code/train3.py
+2023-05-25 09:02:56,883 INFO    SenderThread:72969 [sender.py:transition_state():626] send defer: 10
+2023-05-25 09:02:56,883 DEBUG   SenderThread:72969 [sender.py:send_request():402] send_request: poll_exit
+2023-05-25 09:02:56,885 DEBUG   HandlerThread:72969 [handler.py:handle_request():144] handle_request: defer
+2023-05-25 09:02:56,885 INFO    HandlerThread:72969 [handler.py:handle_request_defer():170] handle defer: 10
+2023-05-25 09:02:56,886 DEBUG   SenderThread:72969 [sender.py:send_request():402] send_request: defer
+2023-05-25 09:02:56,886 INFO    SenderThread:72969 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-05-25 09:02:56,886 INFO    SenderThread:72969 [file_pusher.py:finish():167] shutting down file pusher
+2023-05-25 09:02:57,300 INFO    wandb-upload_0:72969 [upload_job.py:push():137] Uploaded file /Users/hamel/github/try-launch/wandb/run-20230525_090250-xzx28zyj/files/config.yaml
+2023-05-25 09:02:57,347 INFO    wandb-upload_1:72969 [upload_job.py:push():137] Uploaded file /Users/hamel/github/try-launch/wandb/run-20230525_090250-xzx28zyj/files/requirements.txt
+2023-05-25 09:02:57,384 INFO    wandb-upload_2:72969 [upload_job.py:push():137] Uploaded file /Users/hamel/github/try-launch/wandb/run-20230525_090250-xzx28zyj/files/wandb-summary.json
+2023-05-25 09:02:57,589 INFO    Thread-11 :72969 [sender.py:transition_state():626] send defer: 11
+2023-05-25 09:02:57,590 DEBUG   HandlerThread:72969 [handler.py:handle_request():144] handle_request: defer
+2023-05-25 09:02:57,590 INFO    HandlerThread:72969 [handler.py:handle_request_defer():170] handle defer: 11
+2023-05-25 09:02:57,590 DEBUG   SenderThread:72969 [sender.py:send_request():402] send_request: defer
+2023-05-25 09:02:57,590 INFO    SenderThread:72969 [sender.py:send_request_defer():622] handle sender defer: 11
+2023-05-25 09:02:57,590 INFO    SenderThread:72969 [file_pusher.py:join():172] waiting for file pusher
+2023-05-25 09:02:57,590 INFO    SenderThread:72969 [sender.py:transition_state():626] send defer: 12
+2023-05-25 09:02:57,590 DEBUG   HandlerThread:72969 [handler.py:handle_request():144] handle_request: defer
+2023-05-25 09:02:57,590 INFO    HandlerThread:72969 [handler.py:handle_request_defer():170] handle defer: 12
+2023-05-25 09:02:57,590 DEBUG   SenderThread:72969 [sender.py:send_request():402] send_request: defer
+2023-05-25 09:02:57,590 INFO    SenderThread:72969 [sender.py:send_request_defer():622] handle sender defer: 12
+2023-05-25 09:02:57,772 INFO    SenderThread:72969 [sender.py:transition_state():626] send defer: 13
+2023-05-25 09:02:57,773 DEBUG   HandlerThread:72969 [handler.py:handle_request():144] handle_request: defer
+2023-05-25 09:02:57,773 INFO    HandlerThread:72969 [handler.py:handle_request_defer():170] handle defer: 13
+2023-05-25 09:02:57,773 DEBUG   SenderThread:72969 [sender.py:send_request():402] send_request: defer
+2023-05-25 09:02:57,774 INFO    SenderThread:72969 [sender.py:send_request_defer():622] handle sender defer: 13
+2023-05-25 09:02:57,774 INFO    SenderThread:72969 [sender.py:transition_state():626] send defer: 14
+2023-05-25 09:02:57,774 DEBUG   HandlerThread:72969 [handler.py:handle_request():144] handle_request: defer
+2023-05-25 09:02:57,775 INFO    HandlerThread:72969 [handler.py:handle_request_defer():170] handle defer: 14
+2023-05-25 09:02:57,775 DEBUG   SenderThread:72969 [sender.py:send():375] send: final
+2023-05-25 09:02:57,775 DEBUG   SenderThread:72969 [sender.py:send():375] send: footer
+2023-05-25 09:02:57,776 DEBUG   SenderThread:72969 [sender.py:send_request():402] send_request: defer
+2023-05-25 09:02:57,776 INFO    SenderThread:72969 [sender.py:send_request_defer():622] handle sender defer: 14
+2023-05-25 09:02:57,778 DEBUG   HandlerThread:72969 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-25 09:02:57,779 DEBUG   HandlerThread:72969 [handler.py:handle_request():144] handle_request: server_info
+2023-05-25 09:02:57,779 DEBUG   HandlerThread:72969 [handler.py:handle_request():144] handle_request: get_summary
+2023-05-25 09:02:57,779 DEBUG   HandlerThread:72969 [handler.py:handle_request():144] handle_request: sampled_history
+2023-05-25 09:02:57,780 DEBUG   SenderThread:72969 [sender.py:send_request():402] send_request: poll_exit
+2023-05-25 09:02:57,781 DEBUG   SenderThread:72969 [sender.py:send_request():402] send_request: server_info
+2023-05-25 09:02:57,885 DEBUG   HandlerThread:72969 [handler.py:handle_request():144] handle_request: shutdown
+2023-05-25 09:02:57,886 INFO    HandlerThread:72969 [handler.py:finish():842] shutting down handler
+2023-05-25 09:02:58,782 INFO    WriterThread:72969 [datastore.py:close():298] close: /Users/hamel/github/try-launch/wandb/run-20230525_090250-xzx28zyj/run-xzx28zyj.wandb
+2023-05-25 09:02:58,886 INFO    SenderThread:72969 [sender.py:finish():1550] shutting down sender
+2023-05-25 09:02:58,887 INFO    SenderThread:72969 [file_pusher.py:finish():167] shutting down file pusher
+2023-05-25 09:02:58,887 INFO    SenderThread:72969 [file_pusher.py:join():172] waiting for file pusher
